@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dapur Lezat</title>
+    <link rel="stylesheet" href="testes.css">
+</head>
+
+<body>
+
+
+<div id="popup">
+    <div class="popup-box">
+
+        <h2>Daftar Akun</h2>
+
+        <input type="text" id="nama" placeholder="Nama Lengkap">
+        <small id="errNama"></small>
+
+        <input type="email" id="email" placeholder="Email">
+        <small id="errEmail"></small>
+
+        <input type="password" id="password" placeholder="Password">
+        <small id="errPass"></small>
+
+        <button onclick="masuk()">
+            Masuk Ke Website
+        </button>
+
+    </div>
+</div>
+
+
+<header>
+    <img src="Furab.png" class="header-img">
+</header>
+
+
+<nav>
+    <ul>
+
+        <li onclick="showMenu('makanan')">
+            Makanan
+        </li>
+
+        <li onclick="showMenu('minuman')">
+            Minuman
+        </li>
+
+        <li onclick="showMenu('promo')">
+            Promo
+        </li>
+
+        <li onclick="showMenu('alamat')">
+            Alamat
+        </li>
+
+        <li>
+            Kontak
+            <ul>
+                <li onclick="showMenu('ig')">Instagram</li>
+                <li onclick="showMenu('tiktok')">TikTok</li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+
+
+<section class="container" id="makanan">
+
+    <div class="card">
+        <img src="burger.jfif">
+        <h3>burger</h3>
+        <p>Daging juicy</p>
+        <span>Rp 40.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="cake.jfif">
+        <h3>strawberry cake</h3>
+        <p>Manis dan lembut</p>
+        <span>Rp 35.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="pudding.jfif">
+        <h3>puding</h3>
+        <p>tekstur yang kenyal dan lembut</p>
+        <span>Rp 20.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="sand.jfif">
+        <h3>sandwich</h3>
+        <p>isian yang banyak</p>
+        <span>Rp 40.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="roti.jfif">
+        <h3>croissant</h3>
+        <p>Hangat nikmat</p>
+        <span>Rp 30.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="cinnamon roll.jfif">
+        <h3>cinnamon roll</h3>
+        <p>tekstur empuk dan lembut</p>
+        <span>Rp 25.000</span>
+        <button>Beli</button>
+    </div>
+
+</section>
+
+
+<section class="container hidden" id="minuman">
+
+    <div class="card">
+        <img src="kopi.jfif">
+        <h3>kopi</h3>
+        <p>aroma, keasaman, body, rasa, dan aftertaste yang nikmat</p>
+        <span>Rp 18.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="grin.jfif">
+        <h3>matcha</h3>
+        <p>Rasa umami yang lembut</p>
+        <span>Rp 22.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="cokelat.jfif">
+        <h3>chocolate</h3>
+        <p>cokelat dingin menyegarkan</p>
+        <span>Rp 25.000</span>
+        <button>Beli</button>
+    </div>
+
+</section>
+
+
+<section class="container hidden" id="promo">
+
+    <div class="card">
+        <img src="22.jfif">
+        <h3>Promo Burger</h3>
+        <p>Beli 2 gratis 1</p>
+        <span>50% OFF</span>
+        <button>Ambil</button>
+    </div>
+
+    <div class="card">
+        <img src="bubu.png">
+        <h3>Combo Hemat</h3>
+        <p>Burger + Kopi</p>
+        <span>Rp 45.000</span>
+        <button>Ambil</button>
+    </div>
+
+    <div class="card">
+        <img src="sweet.jfif">
+        <h3>Sweet Dessert pack</h3>
+        <p>Diskon dessert spesial</p>
+        <span>30% OFF</span>
+        <button>Ambil</button>
+    </div>
+
+</section>
+
+
+<section class="info hidden" id="alamat">
+
+<h2>Alamat Toko</h2>
+<p>JL. Setiabudi No. 67, Medan, Sumatera Utara</p>
+<p>0812-3456-7890</p>
+<p>Senin - Minggu : 08.00 - 22.00</p>
+
+</section>
+
+
+<section class="info hidden" id="ig">
+<h2>Instagram</h2>
+<p>@dapurlezat</p>
+</section>
+
+
+<section class="info hidden" id="tiktok">
+<h2>TikTok</h2>
+<p>@dapurlezat.id</p>
+</section>
+
+
+<footer>
+    <p>dapur furab lezat</p>
+</footer>
+
+
+<script src="testes.js"></script>
+
+</body>
+</html>
